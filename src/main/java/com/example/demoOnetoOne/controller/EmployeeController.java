@@ -51,7 +51,7 @@ public class EmployeeController {
     //  create api to find employee by id
     @DeleteMapping("/employees/{employeeId}")
     public String deleteEmployee(@PathVariable int employeeId){
-
+        System.out.println("soifdsjvlddlkv");
         return employeeService.deleteById(employeeId);
     }
 
